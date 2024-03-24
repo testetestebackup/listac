@@ -7,13 +7,13 @@
 #define MAX_EMAIL_LENGTH 100
 #define MAX_PASSWORD_LENGTH 20
 
-struct User {
+typedef struct {
     char name[MAX_NAME_LENGTH];
     char email[MAX_EMAIL_LENGTH];
     char senha[MAX_PASSWORD_LENGTH];
-};
+} User;
 
-struct User users[MAX_USERS];
+User users[MAX_USERS];
 int userCount = 0;
 
 //globais
