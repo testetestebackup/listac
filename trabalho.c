@@ -51,6 +51,7 @@ void generateRandomPassword() {
     for (int i = 0; i < MAX_PASSWORD_LENGTH; i++) {
         senha[i] = charset[rand() % (sizeof(charset) - 1)];
     }
+    //marca o final da arrey
     senha[MAX_PASSWORD_LENGTH] = '\0';
 }
 
