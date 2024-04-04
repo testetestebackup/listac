@@ -7,6 +7,9 @@
 #define MAX_EMAIL_LENGTH 100
 #define MAX_PASSWORD_LENGTH 20
 
+//grupo: Pedro Augusto, Adriel Silva, Cleyton Melo
+
+
 typedef struct {
     char name[MAX_NAME_LENGTH];
     char email[MAX_EMAIL_LENGTH];
